@@ -2,6 +2,11 @@
 
 This repo illustrates how one can build their own Custom Apache Karaf distribution.
 
+## Documentation
+
+Apache Karaf Custom Distribution:
+https://karaf.apache.org/manual/latest/#_custom_distributions
+
 ## Build
 
 To build the custom distribution, you'll need to have Maven and Java set in your environment, then run the Maven command:
@@ -9,6 +14,8 @@ To build the custom distribution, you'll need to have Maven and Java set in your
 ```text
 mvn clean install
 ```
+
+## Deploy
 
 When the build is complete you'll find cool-beans-core-platform-1.0.0-SNAPSHOT.tar.gz in the cool-beans-core-platform/target folder (use Zip file if on windows).
 
