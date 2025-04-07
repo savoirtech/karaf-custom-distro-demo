@@ -68,6 +68,16 @@
             <scope>runtime</scope>
         </dependency>
 
+        <!-- Our secret sauce -->
+        <dependency>
+            <groupId>com.savoir.apache.karaf.distro.demo</groupId>
+            <artifactId>cool-beans-features</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+            <type>xml</type>
+            <classifier>features</classifier>
+            <scope>runtime</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -118,6 +128,7 @@
                         <bootFeature>system</bootFeature>
                         <bootFeature>wrap</bootFeature>
                         <!-- Add our boot features here -->
+                        <bootFeature>cool-beans</bootFeature>
                     </bootFeatures>
                 </configuration>
 
